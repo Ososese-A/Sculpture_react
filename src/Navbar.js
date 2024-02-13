@@ -1,11 +1,15 @@
+import logo from "./assets/logo.svg";
+
 const Navbar = () => {
     return (
         <>
-        <a href=".header">Home</a>
-        <a href=".header">Services</a>
-        <a href=".header">LOGO</a>
-        <a href=".header">Payment</a>
-        <a href=".header">Contact</a>
+        <div className="nav">
+        <a className="nava" href=".header">Home</a>
+        <a className="nava" href=".header">Services</a>
+        <a className="nava" href=".header"><img src={logo} alt="Sculture strings traders logo" /></a>
+        <a className="nava" href=".header">Payment</a>
+        <a className="nava" href=".header">Contact</a>
+        </div>
         </>
     );
 }

@@ -4,8 +4,8 @@ const Home = () => {
     return ( 
         <>
         <header className="header">
-        <p>
-        Welcome to Sculpture String Traders, your portal to trading <br />
+        <p className="head-txt">
+        Welcome to <span className="head-em">Sculpture String Traders</span>, your portal to trading <br />
         excellence in the crypto space. Since our inception in Dec 2023, <br />
         we have grown to become one of the most comprehensive and <br />
         enduring trading group. Our platform is not just about following <br />
